@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095F508E29220E8374F0DE7469BA2546 /* EasyXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B17916C1A83EA15FDAC6A55AB39C0B5A /* EasyXMLParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F9B05C1941F51F11801EE891472D598 /* EasyXMLParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D66B0086F68DD45AA9C432A5C91C25F4 /* EasyXMLParser-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21DD932ED8CFC77D22D3AEB393FDB0E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3003F4CC40796945BEC41E540D08FE0A /* EasyXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3FB759D0218DD502A0A7290115FB78 /* EasyXMLParser.swift */; };
+		3FFAD989F055CA798205C63DD9FF9D72 /* EasyXMLParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 388ABF82F5A942077E1A2FEE74D62F9D /* EasyXMLParser-dummy.m */; };
+		519812BC80C0929578A818F58B4DB15E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		59D6AF5E81CF6C138885B63B23A2C4D6 /* Pods-Colors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A72A69AAF3955810443CE677791EF30B /* Pods-Colors-dummy.m */; };
+		A0E67312052327FC2A524FE239B97B39 /* EasyXMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192CC32C3ACA8B002603C0AC9F7CC723 /* EasyXMLElement.swift */; };
+		F3ADCD60E91F6B24A375B947D66F80C5 /* Pods-Colors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F01CB91A5236AF8CD55CE83AA64D8C /* Pods-Colors-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF76907595B498FF419C2EA722AAC20F /* EasyXMLParserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC32596A69E773015BFAFC79A1334D /* EasyXMLParserDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA1B0FB47538E8EC1097573B97D7F1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B54C6E66BAFFC63CF9E56A9D776F6;
+			remoteInfo = EasyXMLParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		192CC32C3ACA8B002603C0AC9F7CC723 /* EasyXMLElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyXMLElement.swift; path = EasyXMLParser/EasyXMLElement.swift; sourceTree = "<group>"; };
+		2B91FD497A3B970E9D8CD6D7C48DB807 /* EasyXMLParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyXMLParser.xcconfig; sourceTree = "<group>"; };
+		388ABF82F5A942077E1A2FEE74D62F9D /* EasyXMLParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyXMLParser-dummy.m"; sourceTree = "<group>"; };
+		3DA2959B1C43BEDDE10D2A208125501D /* EasyXMLParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = EasyXMLParser.modulemap; path = ../../Headers/Public/EasyXMLParser/EasyXMLParser.modulemap; sourceTree = "<group>"; };
+		3F908EB8D9EE697F05628B8A6335025E /* Pods-Colors-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Colors-acknowledgements.plist"; sourceTree = "<group>"; };
+		51C1D0D6480C3A2CE2FA8662004BE75C /* Pods-Colors-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colors-frameworks.sh"; sourceTree = "<group>"; };
+		61F01CB91A5236AF8CD55CE83AA64D8C /* Pods-Colors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Colors-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79993445C505C349778C05E5AC5C160F /* libEasyXMLParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEasyXMLParser.a; path = libEasyXMLParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACE0EE6A287FF07F2AA84F5F734F13B /* Pods-Colors-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Colors-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80CAC0D0B4B938F135EE52F6889711F8 /* EasyXMLParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyXMLParser-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C3FB759D0218DD502A0A7290115FB78 /* EasyXMLParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyXMLParser.swift; path = EasyXMLParser/EasyXMLParser.swift; sourceTree = "<group>"; };
+		A72A69AAF3955810443CE677791EF30B /* Pods-Colors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Colors-dummy.m"; sourceTree = "<group>"; };
+		AFCC32596A69E773015BFAFC79A1334D /* EasyXMLParserDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyXMLParserDelegate.swift; path = EasyXMLParser/EasyXMLParserDelegate.swift; sourceTree = "<group>"; };
+		B17916C1A83EA15FDAC6A55AB39C0B5A /* EasyXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EasyXMLParser.h; path = EasyXMLParser/EasyXMLParser.h; sourceTree = "<group>"; };
+		BC5957965B8CAAE701779E94FEB8015E /* Pods-Colors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Colors.modulemap"; sourceTree = "<group>"; };
+		C818A5E27F7B5CE37B09C76B92183370 /* Pods-Colors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Colors.debug.xcconfig"; sourceTree = "<group>"; };
+		D66B0086F68DD45AA9C432A5C91C25F4 /* EasyXMLParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EasyXMLParser-umbrella.h"; path = "../../Headers/Public/EasyXMLParser/EasyXMLParser-umbrella.h"; sourceTree = "<group>"; };
+		E2A0137095D2A5DF95EE9E9349145716 /* Pods-Colors-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colors-resources.sh"; sourceTree = "<group>"; };
+		FC53C77B48070F33B95A804B85587B02 /* Pods-Colors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Colors.release.xcconfig"; sourceTree = "<group>"; };
+		FD1EFCFC2A0650C5C5057738AD1DB9D3 /* libPods-Colors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Colors.a"; path = "libPods-Colors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15836621B1CB4E62D7E3D5C52C2E0E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519812BC80C0929578A818F58B4DB15E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2C1F1CFA5FD0B2D2182987D56D6A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DD932ED8CFC77D22D3AEB393FDB0E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003301698F7014F25ABE91E1273CB388 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA2959B1C43BEDDE10D2A208125501D /* EasyXMLParser.modulemap */,
+				2B91FD497A3B970E9D8CD6D7C48DB807 /* EasyXMLParser.xcconfig */,
+				388ABF82F5A942077E1A2FEE74D62F9D /* EasyXMLParser-dummy.m */,
+				80CAC0D0B4B938F135EE52F6889711F8 /* EasyXMLParser-prefix.pch */,
+				D66B0086F68DD45AA9C432A5C91C25F4 /* EasyXMLParser-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyXMLParser";
+			sourceTree = "<group>";
+		};
+		5A617C2B3C6D127979670EB3C90E0EB5 /* EasyXMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				192CC32C3ACA8B002603C0AC9F7CC723 /* EasyXMLElement.swift */,
+				B17916C1A83EA15FDAC6A55AB39C0B5A /* EasyXMLParser.h */,
+				9C3FB759D0218DD502A0A7290115FB78 /* EasyXMLParser.swift */,
+				AFCC32596A69E773015BFAFC79A1334D /* EasyXMLParserDelegate.swift */,
+				003301698F7014F25ABE91E1273CB388 /* Support Files */,
+			);
+			name = EasyXMLParser;
+			path = EasyXMLParser;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8AF1A2C0604A62E0628F1C04B1C35050 /* Pods */,
+				A6123E02279C3D282DB0ED91CEDAA4B9 /* Products */,
+				8B2BF7464C43C4ADAC338C7D26602FA2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF1A2C0604A62E0628F1C04B1C35050 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A617C2B3C6D127979670EB3C90E0EB5 /* EasyXMLParser */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B2BF7464C43C4ADAC338C7D26602FA2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				907EAE5AD2ADEFA01BB3528FC90C377D /* Pods-Colors */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		907EAE5AD2ADEFA01BB3528FC90C377D /* Pods-Colors */ = {
+			isa = PBXGroup;
+			children = (
+				BC5957965B8CAAE701779E94FEB8015E /* Pods-Colors.modulemap */,
+				7ACE0EE6A287FF07F2AA84F5F734F13B /* Pods-Colors-acknowledgements.markdown */,
+				3F908EB8D9EE697F05628B8A6335025E /* Pods-Colors-acknowledgements.plist */,
+				A72A69AAF3955810443CE677791EF30B /* Pods-Colors-dummy.m */,
+				51C1D0D6480C3A2CE2FA8662004BE75C /* Pods-Colors-frameworks.sh */,
+				E2A0137095D2A5DF95EE9E9349145716 /* Pods-Colors-resources.sh */,
+				61F01CB91A5236AF8CD55CE83AA64D8C /* Pods-Colors-umbrella.h */,
+				C818A5E27F7B5CE37B09C76B92183370 /* Pods-Colors.debug.xcconfig */,
+				FC53C77B48070F33B95A804B85587B02 /* Pods-Colors.release.xcconfig */,
+			);
+			name = "Pods-Colors";
+			path = "Target Support Files/Pods-Colors";
+			sourceTree = "<group>";
+		};
+		A6123E02279C3D282DB0ED91CEDAA4B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79993445C505C349778C05E5AC5C160F /* libEasyXMLParser.a */,
+				FD1EFCFC2A0650C5C5057738AD1DB9D3 /* libPods-Colors.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9E39C1442360DF93261303F53FC301C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9B05C1941F51F11801EE891472D598 /* EasyXMLParser-umbrella.h in Headers */,
+				095F508E29220E8374F0DE7469BA2546 /* EasyXMLParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8993D36944732A8906935145586C7E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3ADCD60E91F6B24A375B947D66F80C5 /* Pods-Colors-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C2B54C6E66BAFFC63CF9E56A9D776F6 /* EasyXMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607726AD8CD7620B4EFB0EEDBBC0D324 /* Build configuration list for PBXNativeTarget "EasyXMLParser" */;
+			buildPhases = (
+				679054B4AC0DC1CE5469FDB2BD8142C6 /* Sources */,
+				CD2C1F1CFA5FD0B2D2182987D56D6A45 /* Frameworks */,
+				9E39C1442360DF93261303F53FC301C0 /* Headers */,
+				F74F07CCE05E6BB28DB648B5A59E7841 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyXMLParser;
+			productName = EasyXMLParser;
+			productReference = 79993445C505C349778C05E5AC5C160F /* libEasyXMLParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D25C8DDC9B37451FD4F33F814A2D36F /* Pods-Colors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12AC93DC99273736983B3FB4F4A368F /* Build configuration list for PBXNativeTarget "Pods-Colors" */;
+			buildPhases = (
+				33F0A314F0A38B0A0D9DD23F0F60BF81 /* Sources */,
+				15836621B1CB4E62D7E3D5C52C2E0E7B /* Frameworks */,
+				C8993D36944732A8906935145586C7E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75EAF4333E67325BD8BDE49275B7B4D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Colors";
+			productName = "Pods-Colors";
+			productReference = FD1EFCFC2A0650C5C5057738AD1DB9D3 /* libPods-Colors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A6123E02279C3D282DB0ED91CEDAA4B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C2B54C6E66BAFFC63CF9E56A9D776F6 /* EasyXMLParser */,
+				6D25C8DDC9B37451FD4F33F814A2D36F /* Pods-Colors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F74F07CCE05E6BB28DB648B5A59E7841 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/EasyXMLParser/EasyXMLParser.modulemap",
+				"${PODS_ROOT}/Headers/Public/EasyXMLParser/EasyXMLParser-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/EasyXMLParser-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/EasyXMLParser/EasyXMLParser.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/EasyXMLParser/EasyXMLParser-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33F0A314F0A38B0A0D9DD23F0F60BF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D6AF5E81CF6C138885B63B23A2C4D6 /* Pods-Colors-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679054B4AC0DC1CE5469FDB2BD8142C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E67312052327FC2A524FE239B97B39 /* EasyXMLElement.swift in Sources */,
+				3FFAD989F055CA798205C63DD9FF9D72 /* EasyXMLParser-dummy.m in Sources */,
+				3003F4CC40796945BEC41E540D08FE0A /* EasyXMLParser.swift in Sources */,
+				FF76907595B498FF419C2EA722AAC20F /* EasyXMLParserDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75EAF4333E67325BD8BDE49275B7B4D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyXMLParser;
+			target = 5C2B54C6E66BAFFC63CF9E56A9D776F6 /* EasyXMLParser */;
+			targetProxy = BA1B0FB47538E8EC1097573B97D7F1E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6620587CF3406D86E8BF3019A57D2A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C818A5E27F7B5CE37B09C76B92183370 /* Pods-Colors.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Colors/Pods-Colors.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B46FEB53B5AF4F31AF9C005503DE04A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC53C77B48070F33B95A804B85587B02 /* Pods-Colors.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Colors/Pods-Colors.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7DD672B390DF262179147E80C8E64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B91FD497A3B970E9D8CD6D7C48DB807 /* EasyXMLParser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyXMLParser/EasyXMLParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/EasyXMLParser/EasyXMLParser.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EasyXMLParser;
+				PRODUCT_NAME = EasyXMLParser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE91CF0915FFDF3900C0F4B8C1FCE3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B91FD497A3B970E9D8CD6D7C48DB807 /* EasyXMLParser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyXMLParser/EasyXMLParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/EasyXMLParser/EasyXMLParser.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EasyXMLParser;
+				PRODUCT_NAME = EasyXMLParser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607726AD8CD7620B4EFB0EEDBBC0D324 /* Build configuration list for PBXNativeTarget "EasyXMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7DD672B390DF262179147E80C8E64D /* Debug */,
+				DE91CF0915FFDF3900C0F4B8C1FCE3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12AC93DC99273736983B3FB4F4A368F /* Build configuration list for PBXNativeTarget "Pods-Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6620587CF3406D86E8BF3019A57D2A54 /* Debug */,
+				B46FEB53B5AF4F31AF9C005503DE04A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

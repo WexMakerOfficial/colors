@@ -1,0 +1,16 @@
+PODS:
+  - EasyXMLParser (1.1.1)
+
+DEPENDENCIES:
+  - EasyXMLParser (~> 1.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EasyXMLParser
+
+SPEC CHECKSUMS:
+  EasyXMLParser: f8eb5bb299fe8abdddd450d8b7f680ae00a5d538
+
+PODFILE CHECKSUM: c16dbba4fcc57144beff4279bd62c0f623d22925
+
+COCOAPODS: 1.5.3

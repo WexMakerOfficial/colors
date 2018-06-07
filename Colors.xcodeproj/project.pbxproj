@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184ED9D143B32E841CF75ACC /* libPods-Colors.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6074E2F70082251B8F799E /* libPods-Colors.a */; };
 		1B168EA620C9543D0007E66B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B168EA520C9543D0007E66B /* AppDelegate.swift */; };
 		1B168EA820C9543D0007E66B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B168EA720C9543D0007E66B /* ViewController.swift */; };
 		1B168EAB20C9543D0007E66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B168EA920C9543D0007E66B /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B6074E2F70082251B8F799E /* libPods-Colors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Colors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B168EA220C9543D0007E66B /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B168EA520C9543D0007E66B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B168EA720C9543D0007E66B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		1B168EB620C954400007E66B /* ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B168EBA20C954400007E66B /* ColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTests.swift; sourceTree = "<group>"; };
 		1B168EBC20C954400007E66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547D73DB3272E6BCD775BAB6 /* Pods-Colors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Colors/Pods-Colors.debug.xcconfig"; sourceTree = "<group>"; };
+		D8F8F20F2020CC7CECCC1886 /* Pods-Colors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.release.xcconfig"; path = "Pods/Target Support Files/Pods-Colors/Pods-Colors.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184ED9D143B32E841CF75ACC /* libPods-Colors.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 				1B168EA420C9543D0007E66B /* Colors */,
 				1B168EB920C954400007E66B /* ColorsTests */,
 				1B168EA320C9543D0007E66B /* Products */,
+				D1D6C158DFAA25A22459AFC0 /* Pods */,
+				1D8887A730A7A36D7000D2AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +103,23 @@
 			path = ColorsTests;
 			sourceTree = "<group>";
 		};
+		1D8887A730A7A36D7000D2AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B6074E2F70082251B8F799E /* libPods-Colors.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1D6C158DFAA25A22459AFC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				547D73DB3272E6BCD775BAB6 /* Pods-Colors.debug.xcconfig */,
+				D8F8F20F2020CC7CECCC1886 /* Pods-Colors.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B168EBF20C954400007E66B /* Build configuration list for PBXNativeTarget "Colors" */;
 			buildPhases = (
+				1BF88FD0F4181AC1D92B97EF /* [CP] Check Pods Manifest.lock */,
 				1B168E9E20C9543D0007E66B /* Sources */,
 				1B168E9F20C9543D0007E66B /* Frameworks */,
 				1B168EA020C9543D0007E66B /* Resources */,
@@ -191,6 +216,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BF88FD0F4181AC1D92B97EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Colors-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B168E9E20C9543D0007E66B /* Sources */ = {
@@ -356,15 +402,14 @@
 		};
 		1B168EC020C954400007E66B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547D73DB3272E6BCD775BAB6 /* Pods-Colors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
 				INFOPLIST_FILE = Colors/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wexMaker.Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -374,15 +419,14 @@
 		};
 		1B168EC120C954400007E66B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F8F20F2020CC7CECCC1886 /* Pods-Colors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
 				INFOPLIST_FILE = Colors/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wexMaker.Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -398,11 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
 				INFOPLIST_FILE = ColorsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wexMaker.ColorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -419,11 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
 				INFOPLIST_FILE = ColorsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wexMaker.ColorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
