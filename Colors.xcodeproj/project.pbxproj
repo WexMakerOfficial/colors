@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		184ED9D143B32E841CF75ACC /* libPods-Colors.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6074E2F70082251B8F799E /* libPods-Colors.a */; };
 		1B168EA620C9543D0007E66B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B168EA520C9543D0007E66B /* AppDelegate.swift */; };
-		1B168EA820C9543D0007E66B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B168EA720C9543D0007E66B /* ViewController.swift */; };
+		1B168EA820C9543D0007E66B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B168EA720C9543D0007E66B /* MainVC.swift */; };
 		1B168EAB20C9543D0007E66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B168EA920C9543D0007E66B /* Main.storyboard */; };
 		1B168EAD20C954400007E66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B168EAC20C954400007E66B /* Assets.xcassets */; };
 		1B168EB020C954400007E66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B168EAE20C954400007E66B /* LaunchScreen.storyboard */; };
 		1B168EBB20C954400007E66B /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B168EBA20C954400007E66B /* ColorsTests.swift */; };
+		1B17340720CAF6AE00E4E378 /* MainVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B17340620CAF6AE00E4E378 /* MainVCViewModel.swift */; };
+		1BA99EC820CA52C90020C9C8 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99EC720CA52C90020C9C8 /* ColorView.swift */; };
+		1BA99ECB20CA53980020C9C8 /* ColorTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99EC920CA53970020C9C8 /* ColorTVC.swift */; };
+		1BA99ECC20CA53980020C9C8 /* ColorTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA99ECA20CA53970020C9C8 /* ColorTVC.xib */; };
+		1BA99ED020CA55690020C9C8 /* ColorTVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99ECF20CA55690020C9C8 /* ColorTVCViewModel.swift */; };
+		1BA99ED420CA77410020C9C8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99ED320CA77410020C9C8 /* Extensions.swift */; };
+		1BA99ED820CA7D5F0020C9C8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99ED720CA7D5F0020C9C8 /* Utils.swift */; };
+		1BA99EDA20CA81C80020C9C8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99ED920CA81C80020C9C8 /* Color.swift */; };
+		1BA99EDD20CA84550020C9C8 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99EDC20CA84550020C9C8 /* ColorManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +39,7 @@
 		0B6074E2F70082251B8F799E /* libPods-Colors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Colors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B168EA220C9543D0007E66B /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B168EA520C9543D0007E66B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B168EA720C9543D0007E66B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B168EA720C9543D0007E66B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1B168EAA20C9543D0007E66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B168EAC20C954400007E66B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B168EAF20C954400007E66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +47,15 @@
 		1B168EB620C954400007E66B /* ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B168EBA20C954400007E66B /* ColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTests.swift; sourceTree = "<group>"; };
 		1B168EBC20C954400007E66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B17340620CAF6AE00E4E378 /* MainVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCViewModel.swift; sourceTree = "<group>"; };
+		1BA99EC720CA52C90020C9C8 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		1BA99EC920CA53970020C9C8 /* ColorTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTVC.swift; sourceTree = "<group>"; };
+		1BA99ECA20CA53970020C9C8 /* ColorTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorTVC.xib; sourceTree = "<group>"; };
+		1BA99ECF20CA55690020C9C8 /* ColorTVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTVCViewModel.swift; sourceTree = "<group>"; };
+		1BA99ED320CA77410020C9C8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1BA99ED720CA7D5F0020C9C8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1BA99ED920CA81C80020C9C8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1BA99EDC20CA84550020C9C8 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		547D73DB3272E6BCD775BAB6 /* Pods-Colors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Colors/Pods-Colors.debug.xcconfig"; sourceTree = "<group>"; };
 		D8F8F20F2020CC7CECCC1886 /* Pods-Colors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.release.xcconfig"; path = "Pods/Target Support Files/Pods-Colors/Pods-Colors.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,12 +102,10 @@
 		1B168EA420C9543D0007E66B /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				1B168EA520C9543D0007E66B /* AppDelegate.swift */,
-				1B168EA720C9543D0007E66B /* ViewController.swift */,
-				1B168EA920C9543D0007E66B /* Main.storyboard */,
-				1B168EAC20C954400007E66B /* Assets.xcassets */,
-				1B168EAE20C954400007E66B /* LaunchScreen.storyboard */,
-				1B168EB120C954400007E66B /* Info.plist */,
+				1BA99ED120CA70210020C9C8 /* Model */,
+				1BA99EC520CA51A80020C9C8 /* View */,
+				1BA99ECD20CA54F20020C9C8 /* ViewModel */,
+				1BA99EC420CA50C70020C9C8 /* Support */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -101,6 +117,81 @@
 				1B168EBC20C954400007E66B /* Info.plist */,
 			);
 			path = ColorsTests;
+			sourceTree = "<group>";
+		};
+		1BA99EC420CA50C70020C9C8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1B168EA520C9543D0007E66B /* AppDelegate.swift */,
+				1B168EAC20C954400007E66B /* Assets.xcassets */,
+				1B168EAE20C954400007E66B /* LaunchScreen.storyboard */,
+				1B168EB120C954400007E66B /* Info.plist */,
+				1BA99ED320CA77410020C9C8 /* Extensions.swift */,
+				1BA99ED720CA7D5F0020C9C8 /* Utils.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1BA99EC520CA51A80020C9C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BA99EC620CA51CC0020C9C8 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BA99EC620CA51CC0020C9C8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1B168EA720C9543D0007E66B /* MainVC.swift */,
+				1B168EA920C9543D0007E66B /* Main.storyboard */,
+				1BA99EC720CA52C90020C9C8 /* ColorView.swift */,
+				1BA99EC920CA53970020C9C8 /* ColorTVC.swift */,
+				1BA99ECA20CA53970020C9C8 /* ColorTVC.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1BA99ECD20CA54F20020C9C8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1BA99ECE20CA55240020C9C8 /* Main */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1BA99ECE20CA55240020C9C8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1BA99ECF20CA55690020C9C8 /* ColorTVCViewModel.swift */,
+				1B17340620CAF6AE00E4E378 /* MainVCViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1BA99ED120CA70210020C9C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BA99EDB20CA830E0020C9C8 /* Structs */,
+				1BA99ED220CA702D0020C9C8 /* Main */,
+				1BA99EDC20CA84550020C9C8 /* ColorManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BA99ED220CA702D0020C9C8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1BA99EDB20CA830E0020C9C8 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				1BA99ED920CA81C80020C9C8 /* Color.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 		1D8887A730A7A36D7000D2AA /* Frameworks */ = {
@@ -203,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B168EB020C954400007E66B /* LaunchScreen.storyboard in Resources */,
+				1BA99ECC20CA53980020C9C8 /* ColorTVC.xib in Resources */,
 				1B168EAD20C954400007E66B /* Assets.xcassets in Resources */,
 				1B168EAB20C9543D0007E66B /* Main.storyboard in Resources */,
 			);
@@ -243,7 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B168EA820C9543D0007E66B /* ViewController.swift in Sources */,
+				1BA99ED020CA55690020C9C8 /* ColorTVCViewModel.swift in Sources */,
+				1BA99ED420CA77410020C9C8 /* Extensions.swift in Sources */,
+				1BA99EC820CA52C90020C9C8 /* ColorView.swift in Sources */,
+				1BA99ED820CA7D5F0020C9C8 /* Utils.swift in Sources */,
+				1BA99ECB20CA53980020C9C8 /* ColorTVC.swift in Sources */,
+				1BA99EDA20CA81C80020C9C8 /* Color.swift in Sources */,
+				1BA99EDD20CA84550020C9C8 /* ColorManager.swift in Sources */,
+				1B168EA820C9543D0007E66B /* MainVC.swift in Sources */,
+				1B17340720CAF6AE00E4E378 /* MainVCViewModel.swift in Sources */,
 				1B168EA620C9543D0007E66B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,9 +507,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
-				INFOPLIST_FILE = Colors/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Colors/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wexMaker.Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -424,9 +527,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
-				INFOPLIST_FILE = Colors/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Colors/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wexMaker.Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -442,7 +548,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
 				INFOPLIST_FILE = ColorsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wexMaker.ColorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -459,7 +569,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
 				INFOPLIST_FILE = ColorsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wexMaker.ColorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
