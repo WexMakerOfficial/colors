@@ -11,8 +11,8 @@ import Foundation
 class ColorTVCViewModel {
     var colorTitle: String!
     var heigth: Float! = 40
-    var backgroundColorHex: Int!
-    var textColorHex: Int!
+    var backgroundColorHex: Int! = 0xFF737373
+    var textColorHex: Int! = 0xFF737373
     
     required init(with color: Color) {
         self.colorTitle = color.title
@@ -31,7 +31,7 @@ class ColorTVCViewModel {
             cString.remove(at: cString.startIndex)
         }
         
-        if (cString.count != 6) {
+        if (cString.count != 8) {
             return 0
         }
         

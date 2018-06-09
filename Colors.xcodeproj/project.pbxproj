@@ -173,17 +173,9 @@
 			isa = PBXGroup;
 			children = (
 				1BA99EDB20CA830E0020C9C8 /* Structs */,
-				1BA99ED220CA702D0020C9C8 /* Main */,
 				1BA99EDC20CA84550020C9C8 /* ColorManager.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		1BA99ED220CA702D0020C9C8 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		1BA99EDB20CA830E0020C9C8 /* Structs */ = {

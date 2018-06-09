@@ -14,21 +14,15 @@ class ColorTVC: UITableViewCell {
     weak var viewModel: ColorTVCViewModel! {
         didSet {
             colorNameLabel.text = viewModel.colorTitle
-            colorNameLabel.tintColor = UIColor(rgb: viewModel.textColorHex)
-            heightAnchor.constraint(equalToConstant: CGFloat(viewModel.heigth))
+            colorNameLabel.textColor = UIColor(rgb: viewModel.textColorHex)
             backgroundColor = UIColor(rgb: viewModel.backgroundColorHex)
         }
     }
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        self.layer.cornerRadius = 8
+        self.clipsToBounds = true
     }
     
 }

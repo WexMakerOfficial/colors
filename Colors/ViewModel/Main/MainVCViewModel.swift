@@ -38,4 +38,15 @@ class MainVCViewModel {
         return cellsArray[index]
     }
     
+    func cellHeight(_ index: Int) -> Float {
+        guard index < cellsArray.count else { return 44 }
+        return cellsArray[index].heigth
+    }
+    
+    func selectCell (_ index: Int, completeon: () -> Void) {
+        guard index < cellsArray.count else { return }
+        colorsArray[index].selected = !colorsArray[index].selected
+        cellsArray[index] = ColorTVCViewModel(with: colorsArray[index])
+        completeon()
+    }
 }

@@ -12,10 +12,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let colorManager = ColorManager()
+    var mainViewModel: MainVCViewModel!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        mainViewModel = MainVCViewModel(with: colorManager)
+        if let mainController = window?.rootViewController as? MainVC {
+            mainController.viewModel = mainViewModel
+        }
         return true
     }
 

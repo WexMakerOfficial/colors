@@ -14,8 +14,8 @@ extension UIColor {
         guard red >= 0 && red <= 255 else {return nil}
         guard green >= 0 && green <= 255 else {return nil}
         guard blue >= 0 && blue <= 255 else {return nil}
-        guard alpha >= 0 && alpha <= 100 else {return nil}
-        self.init(red: CGFloat(red) / 255.0, green: CGFloat(green) / 255.0, blue: CGFloat(blue) / 255.0, alpha: CGFloat(alpha) / 100)
+        guard alpha >= 0 && alpha <= 255 else {return nil}
+        self.init(red: CGFloat(red) / 255.0, green: CGFloat(green) / 255.0, blue: CGFloat(blue) / 255.0, alpha: (CGFloat(alpha) / 255) * 100)
     }
     
     convenience init?(rgb: Int) {

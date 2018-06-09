@@ -17,6 +17,10 @@ class ColorManager {
     //MARK: private
     
     private func loadFormXML () -> [Color] {
-        return []
+        var colors = [Color]()
+        for _ in 0..<5 {
+            colors.append(Color(with: "hz"))
+        }
+        return colors
     }
 }

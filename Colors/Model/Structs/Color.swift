@@ -12,4 +12,10 @@ class Color {
     var title: String!
     var colorString: String!
     var selected: Bool!
+    
+    required init(with title: String) {
+        self.title = title
+        self.selected = false
+        self.colorString = "#FFC36EE1"
+    }
 }
