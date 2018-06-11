@@ -11,7 +11,7 @@ import Foundation
 class ColorTVCViewModel {
     //MARK: var
     var colorTitle: String
-    var heigth: Float = 40
+    var heigth: Float = 60
     var backgroundColorHex: Int = 0xFF737373
     var textColorHex: Int = 0xFF737373
     //MARL: init
@@ -19,7 +19,7 @@ class ColorTVCViewModel {
         self.colorTitle = color.title
         if color.selected {
             self.backgroundColorHex = Int(stringToHex(color.colorString))
-            self.heigth = 160
+            self.heigth = 300
         } else {
             self.textColorHex = Int(stringToHex(color.colorString))
         }
