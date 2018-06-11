@@ -14,10 +14,10 @@ class MainVCViewModel {
     private var cellsArray = [ColorTVCViewModel]()
     private var colorsArray: [Color]!
     //MARK: init
-    required init(with colorManager: ColorManager) {
+    init(with colorManager: ColorManager) {
         self.colorManager = colorManager
     }
-    //MARK: funcs
+    //MARK: public funcs
     func updateColors (completion: () -> Void) {
         cellsArray.removeAll()
         colorManager.getColors { [unowned self] (colors) in

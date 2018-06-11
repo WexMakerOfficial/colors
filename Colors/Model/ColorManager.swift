@@ -10,31 +10,27 @@ import Foundation
 import SWXMLHash
 
 class ColorManager {
-    
+    //MARK: public func
     func getColors (completion: ([Color]) -> Void) {
-        if let file = Bundle.main.path(forResource: "colors", ofType: "xml") {
-            if let xmlData = try? Data(contentsOf: URL(fileURLWithPath: file)) {
-                completion(loadFormXML(xmlData))
-            }
+        if let file = Bundle.main.path(forResource: "colors", ofType: "xml"), let xmlData = try? Data(contentsOf: URL(fileURLWithPath: file)) {
+            completion(loadFormXML(xmlData))
         }
     }
-    
-    //MARK: private
-    
+    //MARK: private func
     private func loadFormXML (_ xmlData: Data) -> [Color] {
         let xml = SWXMLHash.config { (config) in
             config.shouldProcessLazily = false
-
         }.parse(xmlData)
         var colors = [Color]()
         for xmlColor in xml["colors"]["color"].all {
+            let color = Color()
             if let name = xmlColor.element?.attribute(by: "name") {
-                let color = Color(with: name.text)
-                if let colorValue = xmlColor.element?.attribute(by: "color") {
-                    color.colorString = colorValue.text
-                }
-                colors.append(color)
+                color.title = name.text
             }
+            if let colorValue = xmlColor.element?.attribute(by: "color") {
+                color.colorString = colorValue.text
+            }
+            colors.append(color)
         }
         return colors
     }

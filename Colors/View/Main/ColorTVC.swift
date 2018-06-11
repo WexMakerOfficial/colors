@@ -9,8 +9,9 @@
 import UIKit
 
 class ColorTVC: UITableViewCell {
-
+    //MARK: IBOutlet
     @IBOutlet weak var colorNameLabel: UILabel!
+    //MARK: var
     weak var viewModel: ColorTVCViewModel! {
         didSet {
             colorNameLabel.text = viewModel.colorTitle
@@ -24,5 +25,4 @@ class ColorTVC: UITableViewCell {
         self.layer.cornerRadius = 8
         self.clipsToBounds = true
     }
-    
 }

@@ -15,12 +15,10 @@
 		1B168EB020C954400007E66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B168EAE20C954400007E66B /* LaunchScreen.storyboard */; };
 		1B168EBB20C954400007E66B /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B168EBA20C954400007E66B /* ColorsTests.swift */; };
 		1B17340720CAF6AE00E4E378 /* MainVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B17340620CAF6AE00E4E378 /* MainVCViewModel.swift */; };
-		1BA99EC820CA52C90020C9C8 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99EC720CA52C90020C9C8 /* ColorView.swift */; };
 		1BA99ECB20CA53980020C9C8 /* ColorTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99EC920CA53970020C9C8 /* ColorTVC.swift */; };
 		1BA99ECC20CA53980020C9C8 /* ColorTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA99ECA20CA53970020C9C8 /* ColorTVC.xib */; };
 		1BA99ED020CA55690020C9C8 /* ColorTVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99ECF20CA55690020C9C8 /* ColorTVCViewModel.swift */; };
 		1BA99ED420CA77410020C9C8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99ED320CA77410020C9C8 /* Extensions.swift */; };
-		1BA99ED820CA7D5F0020C9C8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99ED720CA7D5F0020C9C8 /* Utils.swift */; };
 		1BA99EDA20CA81C80020C9C8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99ED920CA81C80020C9C8 /* Color.swift */; };
 		1BA99EDD20CA84550020C9C8 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99EDC20CA84550020C9C8 /* ColorManager.swift */; };
 		1BAF841120CD2B98002BF1CF /* colors.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1BAF841020CD2B98002BF1CF /* colors.xml */; };
@@ -49,12 +47,10 @@
 		1B168EBA20C954400007E66B /* ColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTests.swift; sourceTree = "<group>"; };
 		1B168EBC20C954400007E66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B17340620CAF6AE00E4E378 /* MainVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCViewModel.swift; sourceTree = "<group>"; };
-		1BA99EC720CA52C90020C9C8 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		1BA99EC920CA53970020C9C8 /* ColorTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTVC.swift; sourceTree = "<group>"; };
 		1BA99ECA20CA53970020C9C8 /* ColorTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorTVC.xib; sourceTree = "<group>"; };
 		1BA99ECF20CA55690020C9C8 /* ColorTVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTVCViewModel.swift; sourceTree = "<group>"; };
 		1BA99ED320CA77410020C9C8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		1BA99ED720CA7D5F0020C9C8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		1BA99ED920CA81C80020C9C8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		1BA99EDC20CA84550020C9C8 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		1BAF841020CD2B98002BF1CF /* colors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = colors.xml; sourceTree = "<group>"; };
@@ -130,7 +126,6 @@
 				1B168EAE20C954400007E66B /* LaunchScreen.storyboard */,
 				1B168EB120C954400007E66B /* Info.plist */,
 				1BA99ED320CA77410020C9C8 /* Extensions.swift */,
-				1BA99ED720CA7D5F0020C9C8 /* Utils.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -148,7 +143,6 @@
 			children = (
 				1B168EA720C9543D0007E66B /* MainVC.swift */,
 				1B168EA920C9543D0007E66B /* Main.storyboard */,
-				1BA99EC720CA52C90020C9C8 /* ColorView.swift */,
 				1BA99EC920CA53970020C9C8 /* ColorTVC.swift */,
 				1BA99ECA20CA53970020C9C8 /* ColorTVC.xib */,
 			);
@@ -333,8 +327,6 @@
 			files = (
 				1BA99ED020CA55690020C9C8 /* ColorTVCViewModel.swift in Sources */,
 				1BA99ED420CA77410020C9C8 /* Extensions.swift in Sources */,
-				1BA99EC820CA52C90020C9C8 /* ColorView.swift in Sources */,
-				1BA99ED820CA7D5F0020C9C8 /* Utils.swift in Sources */,
 				1BA99ECB20CA53980020C9C8 /* ColorTVC.swift in Sources */,
 				1BA99EDA20CA81C80020C9C8 /* Color.swift in Sources */,
 				1BA99EDD20CA84550020C9C8 /* ColorManager.swift in Sources */,

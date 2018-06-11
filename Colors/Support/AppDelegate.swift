@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var mainViewModel: MainVCViewModel!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        mainViewModel = MainVCViewModel(with: colorManager)
+        self.mainViewModel = MainVCViewModel(with: colorManager)
         if let mainController = window?.rootViewController as? MainVC {
             mainController.viewModel = mainViewModel
         }

@@ -9,21 +9,20 @@
 import UIKit
 
 class MainVC: UIViewController {
-
+    //MARK: IBOutlet
     @IBOutlet weak var tableView: UITableView!
-    
+    //MARK: let
     let xibName = "ColorTVC"
     let reuseIdentifier = "colorCell"
-    
+    //MARK: var
     weak var viewModel: MainVCViewModel!
-    
+    //MARK: life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.register(UINib(nibName: xibName, bundle: nil), forCellReuseIdentifier: reuseIdentifier)
         self.tableView.delegate = self
         self.tableView.dataSource = self
     }
-
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -33,9 +32,9 @@ class MainVC: UIViewController {
             tableView.endUpdates()
         }
     }
-    
 }
 
+//MARK: UITableViewDelegate, UITableViewDataSource
 extension MainVC: UITableViewDelegate, UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
