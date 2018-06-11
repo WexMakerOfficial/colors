@@ -23,6 +23,7 @@
 		1BA99ED820CA7D5F0020C9C8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99ED720CA7D5F0020C9C8 /* Utils.swift */; };
 		1BA99EDA20CA81C80020C9C8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99ED920CA81C80020C9C8 /* Color.swift */; };
 		1BA99EDD20CA84550020C9C8 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA99EDC20CA84550020C9C8 /* ColorManager.swift */; };
+		1BAF841120CD2B98002BF1CF /* colors.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1BAF841020CD2B98002BF1CF /* colors.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		1BA99ED720CA7D5F0020C9C8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		1BA99ED920CA81C80020C9C8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		1BA99EDC20CA84550020C9C8 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		1BAF841020CD2B98002BF1CF /* colors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = colors.xml; sourceTree = "<group>"; };
 		547D73DB3272E6BCD775BAB6 /* Pods-Colors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Colors/Pods-Colors.debug.xcconfig"; sourceTree = "<group>"; };
 		D8F8F20F2020CC7CECCC1886 /* Pods-Colors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.release.xcconfig"; path = "Pods/Target Support Files/Pods-Colors/Pods-Colors.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 		1BA99EC420CA50C70020C9C8 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				1BAF841020CD2B98002BF1CF /* colors.xml */,
 				1B168EA520C9543D0007E66B /* AppDelegate.swift */,
 				1B168EAC20C954400007E66B /* Assets.xcassets */,
 				1B168EAE20C954400007E66B /* LaunchScreen.storyboard */,
@@ -285,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAF841120CD2B98002BF1CF /* colors.xml in Resources */,
 				1B168EB020C954400007E66B /* LaunchScreen.storyboard in Resources */,
 				1BA99ECC20CA53980020C9C8 /* ColorTVC.xib in Resources */,
 				1B168EAD20C954400007E66B /* Assets.xcassets in Resources */,

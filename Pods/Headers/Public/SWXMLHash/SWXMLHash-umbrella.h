@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "EasyXMLParser.h"
 
-FOUNDATION_EXPORT double EasyXMLParserVersionNumber;
-FOUNDATION_EXPORT const unsigned char EasyXMLParserVersionString[];
+FOUNDATION_EXPORT double SWXMLHashVersionNumber;
+FOUNDATION_EXPORT const unsigned char SWXMLHashVersionString[];
 

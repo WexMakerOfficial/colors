@@ -1,6 +1,0 @@
-module EasyXMLParser {
-  umbrella header "EasyXMLParser-umbrella.h"
-
-  export *
-  module * { export * }
-}
